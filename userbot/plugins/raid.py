@@ -357,7 +357,7 @@ async def _(event):
 @bot.on(admin_cmd(pattern="dreplyraid(?: |$)(.*)"))
 @bot.on(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
 @bot1.on(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
-@bot2.onq(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
+@bot2.on(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
 @bot3.on(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
 @bot4.on(sudo_cmd(pattern="dreplyraid(?: |$)(.*)", allow_sudo=True))
 async def _(event):
